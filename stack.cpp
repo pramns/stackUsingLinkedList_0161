@@ -5,7 +5,12 @@ class node{
   public:
       int data;
       node *next;
+      node(){
+        next = NULL;
+      }
 };
+
+
 
 int main(){
     return 0;
